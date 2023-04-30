@@ -9,7 +9,7 @@ const footerYear = document.querySelector('.year');
 
 window.onload = () => {
 
-    let url = 'https://api.themoviedb.org/3/movie/602223?api_key=4ca94f8b470d7e34bd3f59c3914295c8';
+    let url = 'https://api.themoviedb.org/3/movie/602223?api_key=0daec713ad8428a0c38e8498347a8730';
 
     fetch(url)
     .then(response => {
